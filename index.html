@@ -106,8 +106,8 @@
         <!-- Marquee -->
         <div class="py-12 bg-black text-white overflow-hidden border-y border-white/10 rotate-[-2deg] scale-105 z-20 relative">
             <div class="flex whitespace-nowrap marquee-track">
-                <span class="text-5xl md:text-6xl font-black font-mono mx-8 tracking-tighter text-accent">SLAM • COMPUTER VISION • STATE ESTIMATION • SENSOR FUSION • EMBEDDED AI • ROS2 •</span>
-                <span class="text-5xl md:text-6xl font-black font-mono mx-8 tracking-tighter text-accent">SLAM • COMPUTER VISION • STATE ESTIMATION • SENSOR FUSION • EMBEDDED AI • ROS2 •</span>
+                <span class="text-5xl md:text-6xl font-black font-mono mx-8 tracking-tighter text-accent">SLAM • COMPUTER VISION • STATE ESTIMATION • SENSOR FUSION • EMBEDDED AI • ROS2 • SELF-HOSTING •</span>
+                <span class="text-5xl md:text-6xl font-black font-mono mx-8 tracking-tighter text-accent">SLAM • COMPUTER VISION • STATE ESTIMATION • SENSOR FUSION • EMBEDDED AI • ROS2 • SELF-HOSTING •</span>
             </div>
         </div>
         <!-- Bio & Map Section -->
@@ -219,7 +219,7 @@
                 <div class="flex gap-12 md:gap-20 px-6 md:px-20 pl-[10vw] md:pl-[20vw]" id="works-wrapper">
                     <!-- Theme 1: Localisation & SLAM -->
                     <div class="work-theme shrink-0 w-[75vw] md:w-[400px] h-[62vh] flex flex-col justify-end border-l-4 border-accent pl-6 md:pl-10">
-                        <span class="font-mono text-sm text-gray-400 mb-4">THEME 01 / 03</span>
+                        <span class="font-mono text-sm text-gray-400 mb-4">THEME 01 / 04</span>
                         <h3 class="text-5xl md:text-6xl font-black leading-[0.95] tracking-tighter mb-6">Localisation<br>&amp; SLAM</h3>
                         <p class="font-mono text-sm text-gray-500 max-w-xs mb-8">Estimating where a robot is and what surrounds it, from LiDAR, cameras, IMU and sonar.</p>
                         <span class="font-mono text-xs font-bold">4 PROJECTS <i class="ri-arrow-right-line align-middle"></i></span>
@@ -298,7 +298,7 @@
                     </a>
                     <!-- Theme 2: Robotics & Autonomy -->
                     <div class="work-theme shrink-0 w-[75vw] md:w-[400px] h-[62vh] flex flex-col justify-end border-l-4 border-accent pl-6 md:pl-10">
-                        <span class="font-mono text-sm text-gray-400 mb-4">THEME 02 / 03</span>
+                        <span class="font-mono text-sm text-gray-400 mb-4">THEME 02 / 04</span>
                         <h3 class="text-5xl md:text-6xl font-black leading-[0.95] tracking-tighter mb-6">Robotics<br>&amp; Autonomy</h3>
                         <p class="font-mono text-sm text-gray-500 max-w-xs mb-8">Planning, teleoperation and real-time control: robots that act in the real world.</p>
                         <span class="font-mono text-xs font-bold">3 PROJECTS <i class="ri-arrow-right-line align-middle"></i></span>
@@ -359,7 +359,7 @@
                     </a>
                     <!-- Theme 3: XR, 3D & Simulation -->
                     <div class="work-theme shrink-0 w-[75vw] md:w-[400px] h-[62vh] flex flex-col justify-end border-l-4 border-accent pl-6 md:pl-10">
-                        <span class="font-mono text-sm text-gray-400 mb-4">THEME 03 / 03</span>
+                        <span class="font-mono text-sm text-gray-400 mb-4">THEME 03 / 04</span>
                         <h3 class="text-5xl md:text-6xl font-black leading-[0.95] tracking-tighter mb-6">XR, 3D<br>&amp; Simulation</h3>
                         <p class="font-mono text-sm text-gray-500 max-w-xs mb-8">Turning the real world into virtual ones, and building the hardware and software to step inside.</p>
                         <span class="font-mono text-xs font-bold">5 PROJECTS <i class="ri-arrow-right-line align-middle"></i></span>
@@ -454,6 +454,46 @@
                             </div>
                         </div>
                     </a>
+                    <!-- Theme 4: Infrastructure & Self-Hosting -->
+                    <div class="work-theme shrink-0 w-[75vw] md:w-[400px] h-[62vh] flex flex-col justify-end border-l-4 border-accent pl-6 md:pl-10">
+                        <span class="font-mono text-sm text-gray-400 mb-4">THEME 04 / 04</span>
+                        <h3 class="text-5xl md:text-6xl font-black leading-[0.95] tracking-tighter mb-6">Infra &amp;<br>Self-Hosting</h3>
+                        <p class="font-mono text-sm text-gray-500 max-w-xs mb-8">Running my own stack end to end: networking, containers, storage and local AI inference.</p>
+                        <span class="font-mono text-xs font-bold">1 PROJECT <i class="ri-arrow-right-line align-middle"></i></span>
+                    </div>
+                    <div class="work-item shrink-0 w-[80vw] md:w-[560px] h-[62vh] relative group">
+                        <div class="absolute inset-0 bg-gray-100 transform rotate-2 group-hover:rotate-0 transition-transform duration-500 border border-black"></div>
+                        <div class="absolute inset-0 bg-white border border-black p-6 md:p-8 flex flex-col justify-between transform group-hover:-translate-y-2 transition-transform duration-500">
+                            <!-- Architecture diagram (no screenshots: the repo is private) -->
+                            <div class="w-full h-1/2 overflow-hidden bg-black mb-4 relative flex flex-col justify-center gap-2 md:gap-3 px-3 md:px-5 text-white" role="img" aria-label="Home server architecture: internet through VPN and reverse proxy to Docker containers managed by Portainer">
+                                <div class="absolute inset-0 grid-bg invert opacity-30 pointer-events-none"></div>
+                                <div class="relative flex items-center gap-1 md:gap-2 flex-wrap">
+                                    <span class="px-1 md:px-2 py-1 border font-mono text-[10px] md:text-xs whitespace-nowrap border-gray-600 text-gray-400"><i class="ri-global-line"></i> INTERNET</span>
+                                    <i class="ri-arrow-right-line text-accent"></i>
+                                    <span class="px-1 md:px-2 py-1 border font-mono text-[10px] md:text-xs whitespace-nowrap border-accent text-accent"><i class="ri-shield-keyhole-line"></i> VPN</span>
+                                    <i class="ri-arrow-right-line text-accent"></i>
+                                    <span class="px-1 md:px-2 py-1 border font-mono text-[10px] md:text-xs whitespace-nowrap border-accent text-accent"><i class="ri-route-line"></i> REVERSE PROXY</span>
+                                </div>
+                                <div class="relative px-1 md:px-2 py-1 border font-mono text-[10px] md:text-xs whitespace-nowrap border-white text-center"><i class="ri-stack-line"></i> DOCKER · PORTAINER<span class="hidden md:inline"> · BACK-END SERVICES</span></div>
+                                <div class="relative grid grid-cols-3 gap-1 md:gap-2">
+                                    <span class="px-1 md:px-2 py-1 border font-mono text-[10px] md:text-xs whitespace-nowrap border-gray-600 text-center"><i class="ri-film-line"></i> Jellyfin</span>
+                                    <span class="px-1 md:px-2 py-1 border font-mono text-[10px] md:text-xs whitespace-nowrap border-gray-600 text-center"><i class="ri-cloud-line"></i> Nextcloud</span>
+                                    <span class="px-1 md:px-2 py-1 border font-mono text-[10px] md:text-xs whitespace-nowrap border-gray-600 text-center"><i class="ri-book-open-line"></i> Kavita</span>
+                                    <span class="px-1 md:px-2 py-1 border font-mono text-[10px] md:text-xs whitespace-nowrap border-gray-600 text-center col-span-3 bg-accent text-black border-accent"><i class="ri-cpu-line"></i> OLLAMA · LOCAL LLM INFERENCE</span>
+                                </div>
+                                <div class="absolute top-2 right-2 bg-black text-accent text-xs font-mono px-2 py-1 border border-accent">HOMELAB</div>
+                            </div>
+                            <div>
+                                <h3 class="text-3xl md:text-4xl font-bold mb-2">Home Server</h3>
+                                <p class="text-gray-500 font-mono text-sm">Self-hosted stack behind a reverse proxy and VPN: media, cloud storage, e-books and private LLM inference, all containerised.</p>
+                            </div>
+                            <div class="flex justify-between items-end border-t border-black pt-4">
+                                <span class="text-4xl font-black opacity-10">13</span>
+                                <span class="font-mono text-xs">PRIVATE REPO</span>
+                                <i class="ri-lock-line text-2xl"></i>
+                            </div>
+                        </div>
+                    </div>
                     <div class="w-[30vw] md:w-[20vw] shrink-0 flex items-center justify-center">
                         <a href="https://github.com/Tim-HW?tab=repositories" target="_blank" rel="noopener" class="w-32 h-32 rounded-full border border-black flex items-center justify-center hover:bg-accent transition-all text-sm font-mono font-bold group">
                             VIEW ALL <i class="ri-arrow-right-line ml-1 group-hover:translate-x-1 transition-transform"></i>
@@ -601,6 +641,7 @@
                             <li>Edge inference</li>
                             <li>Sensor integration</li>
                             <li>Real-time systems</li>
+                            <li>Docker · self-hosting</li>
                             <li>Drones (EASA A1/A2/A3)</li>
                         </ul>
                     </div>
@@ -611,7 +652,7 @@
                             <li>C++ · Python · C</li>
                             <li>ROS2</li>
                             <li>Unity / VR</li>
-                            <li>Linux · Git</li>
+                            <li>Linux · Git · Docker</li>
                         </ul>
                     </div>
                 </div>
